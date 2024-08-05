@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: 48_Cloud_Config_Server
+
+
+    server:
+      port:7071
+      
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Abhimanyu-raj1741/Configuration_Properties.git
+
+  clone-on-start: true
+ 
+      
+      
